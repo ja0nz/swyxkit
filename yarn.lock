@@ -131,6 +131,32 @@
     lodash.isplainobject "^4.0.6"
     lodash.merge "^4.6.2"
 
+"@thi.ng/api@^8.3.4":
+  version "8.3.4"
+  resolved "https://registry.yarnpkg.com/@thi.ng/api/-/api-8.3.4.tgz#acb0badeeab000a98b4741c151fd8ef01e45a99e"
+  integrity sha512-cmX205M5P/mAtSoRbZlIeRQFMEWj01BDUbdL6JzZBbfOKilEdbZyuLsSh2L+kL2JX5YyHN6yTGVaRuHzuktepA==
+
+"@thi.ng/checks@^3.1.4":
+  version "3.1.4"
+  resolved "https://registry.yarnpkg.com/@thi.ng/checks/-/checks-3.1.4.tgz#f0a554ff03c18b7a309e301753530ef7631172d5"
+  integrity sha512-pNzUbzk44n4sirofuzjq1R7NJBF9F0wy2qBinTeumC7xxyYCE9isCzKKwuJEdKFrK8FxhIyCg5JbleukfgNI7w==
+  dependencies:
+    tslib "^2.3.1"
+
+"@thi.ng/errors@^2.1.4":
+  version "2.1.4"
+  resolved "https://registry.yarnpkg.com/@thi.ng/errors/-/errors-2.1.4.tgz#f3ac3c2507e02ff379e202d4dae913de577afad1"
+  integrity sha512-eIBlO2B25o34V9O0L3lTf5kyeKD90UaRJmuvt+TpGJ+ofo6lmlM5Bddw9eytLKk5YT01RlJNl8EBwNrw/vtEyg==
+
+"@thi.ng/paths@^5.1.4":
+  version "5.1.4"
+  resolved "https://registry.yarnpkg.com/@thi.ng/paths/-/paths-5.1.4.tgz#929c8b98c34e0d891e81a0fd4a0ae1837bcd9823"
+  integrity sha512-M1cZOwf2ntd0lw2I6aAEtJf8gneL3KjHlUgHkNbvzGPbiK9q2GshU0w4fwMBk0SWlu6+w3k6dkKrQTMD7ITG4Q==
+  dependencies:
+    "@thi.ng/api" "^8.3.4"
+    "@thi.ng/checks" "^3.1.4"
+    "@thi.ng/errors" "^2.1.4"
+
 "@types/hast@^2.0.0":
   version "2.3.4"
   resolved "https://registry.yarnpkg.com/@types/hast/-/hast-2.3.4.tgz#8aa5ef92c117d20d974a82bdfb6a648b08c0bafc"
