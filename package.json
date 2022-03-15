@@ -64,5 +64,6 @@
 		"shiki": "^0.10.0",
 		"slugify": "^1.6.5",
 		"snarkdown": "^2.0.0"
-	}
+	},
+	"packageManager": "yarn@3.2.0"
 }
